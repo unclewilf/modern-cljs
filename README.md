@@ -1,14 +1,7 @@
 # modern-cljs
 
-A Clojure library designed to ... well, that part is up to you.
+---------Create JS from ClojureScript files----------
+lein cljsbuild once
 
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+---------Run Clojuresript REPL------------
+lein trampoline cljsbuild repl-listen
